@@ -24,7 +24,7 @@ main {
   text-align: center;
   height: 80vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -37,11 +37,19 @@ button {
 input {
   padding: 0.4em;
   font-size: 1em;
+  margin: 2em 0;
+}
+
+.emojiList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 0;
 }
 
 .emoji {
   padding: 0.5em;
-  margin: 0 0.5em;
+  margin: 0.5em;
   border: 1px solid #ccc;
   cursor: pointer;
+  user-select: none;
 }
