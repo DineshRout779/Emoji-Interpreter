@@ -7,7 +7,10 @@ const emojiData = {
   "😢": "crying",
   "🤣": "Rolling on the Floor Laughing",
   "🙄": "Face with Rolling Eyes",
-  "🤓": "Nerd Face"
+  "🤓": "Nerd Face",
+  "😍": "Heart Eyes",
+  "🤗": "Hugging Face",
+  "😏": "Flirting"
 };
 
 const emojis = Object.keys(emojiData);
